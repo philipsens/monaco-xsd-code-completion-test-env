@@ -14,3 +14,9 @@ some-folder
 This project makes use of yarn and webpack.
 
 The main project is located at: https://github.com/philipsens/monaco-xsd-code-completion
+
+## Building the test environment
+1. Make sure you have the main project cloned and build (esm) version of the package. You can do this by running `yarn build:esm` in the main project.
+2. In this project, run `yarn install` to install the dependencies.
+3. Run `yarn build` to start the development server.
+4. The dist folder now contains the built files. 
